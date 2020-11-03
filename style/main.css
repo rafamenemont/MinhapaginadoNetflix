@@ -41,8 +41,12 @@ header nav a:hover{
 }
 
 .filme-principal{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.384)100%), url(/img/capa.jpg);
+
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(/img/capa-house.jpg);
+    background: grayscale(200%);
+ 
 
     height: 400px;
     background-size:cover;
@@ -54,6 +58,7 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
+    filter: b
     margin-top: 10px;
     margin-bottom: 40px;
 }
